@@ -1,0 +1,315 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+.row{
+	max-width: 1140px;
+	margin: 0 auto;
+}
+.main-nav{
+	float: right;
+	text-decoration: none;
+	list-style: none;
+	margin-top: 60px;
+}
+body{
+	font-family: tahoma;
+}
+.hero{
+	position: absolute;
+	width: 300px;
+	top: 70%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	align-content: center;
+}
+
+#index  {
+	background-image: url(img/bg3.png);
+	width:100%;height:500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+	
+}
+/*
+#litbg  {
+	background-image: url(literature/bg.jpg);
+	width:100%;height:500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+	
+}*/
+#moviebg {
+	background-image: url(img/mb.jpeg);
+	width:100%;height:500px;
+   background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+	
+	
+}
+#vi
+
+.hello{
+	background-image: url(img/bg.png);
+	height: 29vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+	
+}
+h1{
+	color: white;
+	font-family:Microsoft Yi Baiti;
+}
+h3{
+	color: white;
+	font-family:Microsoft Yi Baiti;
+	font-size: 40px;
+	text-align: center;
+	color: #e67e22;
+}
+.main-nav2{
+	float: right;
+	text-decoration: none;
+	list-style: none;
+	margin-top: 60px;
+}
+.main-nav li{
+	display: inline-block;
+	margin-left: 20px;
+
+}
+.main-nav ul li{
+	display: inline-block;
+	margin-left: 20px;
+
+}
+.main-nav li a{
+	color: white;
+	text-decoration: none;
+	font-size: 90%;
+	font-weight: bold;
+}
+.main-nav li a:hover{
+	color: #e67e22;
+	border-bottom: 2px solid #e67e22;
+	transition: all 0.5s ease-in;
+	padding: 10px 0;
+}
+
+
+
+.main-nav2 li{
+	display: inline-block;
+	margin-left: 20px;
+
+}
+.main-nav2 li a{
+	color: black;
+	text-decoration: none;
+	font-size: 90%;
+	font-weight: bold;
+}
+.main-nav2 li a:hover{
+	color: #e67e22;
+	border-bottom: 2px solid #e67e22;
+	transition: all 0.5s ease-in;
+	padding: 10px 0;
+}
+
+
+
+
+
+.logo img{
+	height: 100px;
+	float: left;
+	margin-left: 85px;
+	margin-top: 20px;
+}
+.current{
+	border-bottom: 3px solid #e67e22;
+}
+.btn{
+	border:1px solid #e67e22;
+	padding: 10px 20px;
+	color: skyblue;
+	text-decoration: none;
+	border-radius: 20px;
+	margin-right: 10px;
+}
+.button-awesome{
+	margin-top: 40px;
+}
+.btn-half{
+	background-color: #e67e22;
+	margin-left: 5px;
+}
+.btn-full:hover{
+background-color: #e67e22;
+color: white;
+transition: all 0.6s ease-in;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+	margin-top: 10px;
+	
+}
+#boxes{
+	margin-top: -10px;
+	background-color:#f4f4f4;
+}
+#boxes .box{
+	float: left;
+	width: 30%;
+	padding: 10px;
+	text-align: center;
+}
+#boxes .box img{
+	width: 90px;	
+}
+
+.lab{
+	color: #999;
+}
+
+footer{
+	padding: 20px;
+	margin-top: 20px;
+	color:#ffffff;
+	background-color: #e67e22;
+	text-align: center;
+	clear: both;
+}
+h4{
+	font-size: 25px; 
+	font-family: Microsoft Yi Baiti;
+}
+#boxes .box2{
+	float: left;
+	width: 30%;
+	padding: 10px;
+	text-align: center;
+}
+#boxes .box2 img:hover{
+		opacity: 0.4;
+		transition: all 0.6s ease-in;
+		cursor: pointer;
+}
+#boxes .box3{
+	float: left;
+	width: 30%;
+	padding: 10px;
+	text-align: center;
+}
+#boxes .box3 img{	
+}
+
+/*form*/
+
+.input{
+    background-color:#333;
+    color: white;
+    border: 1px solid #333;
+    border-radius: 2px;
+    height: 35px;
+    width:220px;
+    text-align: center;
+    opacity: 0.8;
+}
+.lab2{
+    background-color:#f4f4f4;
+    color: black;
+    border: 1px solid #999;
+    border-radius: 2px;
+    height: 35px;
+    width:220px;
+    text-align: center;
+    opacity: 0.8;
+    font-size: 17px;
+}
+
+._button{
+    width: 110px;
+    height: 35px;
+    border-radius: 2px;
+    border: 1px solid #999;
+    background-color: skyblue;
+    cursor: pointer;
+}
+
+label{
+    font-family:Microsoft Yi Baiti;
+    color: #ffffff;
+}
+
+
+/*form ends here*/
+
+
+
+@media(max-width: 700px){
+	#boxes .box,
+	#boxes .box2,
+	#boxes .box3{
+		float:none;
+		text-align: center;
+		width: 100%;
+}
+	.hero h1,h3{
+		font-size: 25px;
+		margin-left: 25px;
+		font-family:Microsoft Yi Baiti;
+	}
+	.ng4{
+		width: 50%;
+	}
+}
+	.main-nav{
+		font-size: 25px;
+	}
+	.hero h1{
+		margin-top: -80px;
+	}
+	.maama{
+		font-size: 30px;
+	}
+	.btn-full,
+	.btn-half{
+		font-size: 16px;
+		color: white;
+	}
+	.norman{
+		font-size: 25px;
+	}
+	form{
+		font-size: 30px;
+	}
+	form .input{
+		font-size: 20px;
+	}
+	footer{
+		font-size: 20px;
+	}
+	.noon{
+		font-size: 20px;
+	}
+	h6{
+		font-size: 15px;
+	}
+	h4{
+		color: black;
+		font-size: 25px;
+	}
+	.main-nav2{
+		font-size: 25px;
+	}
+
+
